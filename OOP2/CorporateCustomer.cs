@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    internal class CorporateCustomer
+    //Miras - Inheritance
+    internal class CorporateCustomer:Customer
     {
-        public int Id { get; set; }
-        public string CustomerNo { get; set; }
+
         public string CompanyName { get; set; }
         public string TaxNo { get; set; }
     }
