@@ -8,12 +8,14 @@ namespace OOP3
 {
     internal class ApplicationManager
     {
-        public void Apply(ILoanManager loanManager)
+        //Method injection
+        public void Apply(ILoanManager loanManager,ILoggerService loggerService)
         {
             //Başvuran bilgilerini değerlendirme
             //MortgageLoanManager mortgageLoanManager = new MortgageLoanManager(); // Doğru bir yöntem değil.
 
             loanManager.Calculate();
+            loggerService.Log();
 
         }
 
