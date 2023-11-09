@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationManager.cs" />
+    <Compile Include="DatabaseLoggerService.cs" />
+    <Compile Include="FileLoggerService.cs" />
     <Compile Include="ILoanManager.cs" />
+    <Compile Include="ILoggerService.cs" />
     <Compile Include="MortgageLoanManager.cs" />
     <Compile Include="PersonalLoanManager.cs" />
     <Compile Include="Program.cs" />
